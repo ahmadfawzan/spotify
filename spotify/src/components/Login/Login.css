@@ -1,0 +1,37 @@
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(22, 22, 22);
+  flex-direction: column;
+}
+
+.login > a {
+  text-decoration: none;
+  width: 310px;
+  height: 60px;
+  background-color: white;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-family: "lora";
+  color: black;
+  background-color: var(--background-base, #ffffff);
+  color: var(--text-base, #000000);
+  font-size: 25px;
+}
+.login > a:hover {
+  color: #000000;
+}
+
+.login_logo {
+  width: 100%;
+  object-fit: contain;
+  height: 90px;
+  margin-bottom: 100px;
+}

@@ -1,0 +1,116 @@
+.mp3Player {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+  background-color: #121212;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-top: 1px solid #282828;
+  transition: opacity 0.5s ease-in-out;
+  height: 64px;
+}
+.mp3Player_op {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.mp3Player_start {
+  display: flex;
+  align-items: center;
+  flex: 0.4;
+}
+.mp3Player_start > div > h3 {
+  font-weight: 500;
+  font-size: 17px;
+  color: white;
+}
+.mp3Player_start > div > p {
+  font-size: 13px;
+  color: #b3b3b3;
+}
+.mp3Player_start > img {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  object-fit: contain;
+  margin-right: 10px;
+  box-shadow: 0 8px 24px rgb(0 0 0 / 50%);
+}
+.mp3Player_mid {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.mp3Player_mid > button {
+  background-color: #fff;
+  border: none;
+  border-radius: 50%;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  padding: 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+.mp3Player_mid > button > svg {
+  height: 17px;
+  width: 17px;
+  margin-left: 2px;
+}
+.mp3Player_mid > button:hover {
+  transform: scale(1.1);
+}
+
+.mp3Player > .mp3Player_mid > .MuiSlider-root {
+  color: rgb(209, 209, 209);
+  width: 55%;
+  padding: 13px 0;
+  margin: 0 20px;
+}
+.mp3Player_end {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0.4;
+  margin-right: 50px;
+  cursor: pointer;
+}
+
+.mp3Player_end > span {
+  width: 62%;
+}
+.mp3Player_end > .MuiSlider-root {
+  color: #b3b3b3;
+  transition: color 0.3s ease-in;
+}
+.mp3Player_end > svg {
+  color: #b3b3b3;
+  width: 26px;
+  height: 27px;
+  margin-right: 5px;
+  transition: color 0.3s ease-in;
+}
+.mp3Player_end:hover > svg {
+  color: rgb(219, 219, 219);
+}
+.mp3Player_end:hover > .MuiSlider-root {
+  color: #2cba5f;
+}
+
+@media (max-width: 780px) {
+  .mp3Player_start > div > h3 {
+    font-size: 14px;
+  }
+  .mp3Player_start > div > p {
+    font-size: 10px;
+  }
+}

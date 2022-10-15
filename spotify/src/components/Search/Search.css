@@ -1,0 +1,848 @@
+.divTag {
+  min-width: 509px;
+  min-height: 26px;
+  border-radius: 5px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  transition: background-color 0.3s ease-in;
+  cursor: pointer;
+  margin: 3px 6px 2px 9px;
+  flex: 1 1;
+  text-decoration: none;
+  position: fixed;
+  top: 74px;
+  left: 252px;
+  z-index: 2;
+}
+.linkTag {
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+  padding: 7px 18px;
+  align-items: center;
+  border-radius: 122px;
+  z-index: 2;
+  background: #2a2a2a;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 3px 1px 5px 4px;
+  padding-top: 5px;
+}
+.divMainSearch {
+  display: flex;
+  position: absolute;
+  top: 115px;
+  left: 250px;
+}
+.divTopResult {
+  display: flex;
+
+  width: 363px;
+  height: 300px;
+}
+
+.divTopResult > h1 {
+  color: white;
+  font-size: 25px;
+  font-family: cursive;
+
+  position: absolute;
+
+  left: 17px;
+}
+
+.harfTopResult {
+  background-color: #181818;
+  min-width: 162px;
+
+  min-height: 239px;
+  border-radius: 5px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  transition: background-color 0.3s ease-in;
+  cursor: pointer;
+  margin: 43px 12px 14px 13px;
+  flex: 1 1;
+  text-decoration: none;
+}
+
+.imgTopResult {
+  width: 40%;
+  height: 120px;
+  object-fit: cover;
+  box-shadow: 0 8px 24px rgb(0 0 0 / 50%);
+}
+.harfTopResult > h1 {
+  color: white;
+  font-size: 26px;
+  margin-top: 11px;
+  align-self: auto;
+  font-family: cursive;
+}
+.divTopResult2 {
+  position: absolute;
+  top: 239px;
+  display: flex;
+  align-items: flex-start;
+
+  padding: 25px;
+
+  left: 289px;
+  align-items: center;
+  justify-content: center;
+}
+.divTopResult2 > button {
+  position: absolute;
+
+  bottom: 0px;
+  border-radius: 50%;
+  background-color: #1db954;
+  color: white;
+  border: none;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.4s ease-in-out, bottom 0.4s ease-in-out,
+    transform 0.3s ease-in-out;
+  box-shadow: 0 8px 8px rgb(0 0 0 / 30%);
+}
+.harfTopResult > button > svg {
+  font-size: 27px;
+  margin-left: 6px;
+}
+.harfTopResult > h2 {
+  color: white;
+  font-size: 16px;
+  margin-top: 11px;
+  align-self: auto;
+  font-family: cursive;
+}
+.divSongs3 {
+  width: 600px;
+  height: 50px;
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+  padding: 7px 144px;
+  align-items: center;
+  border-radius: 10px;
+  transition: background-color 0.3s ease-in;
+
+  background-color: #181818;
+
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 4px 7px 4px 4px;
+  padding-top: 5px;
+}
+.divSongs3 > button {
+  position: relative;
+  left: 303px;
+  bottom: 0px;
+  border-radius: 50%;
+  background-color: #1db954;
+  color: white;
+  border: none;
+
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.4s ease-in-out, bottom 0.4s ease-in-out,
+    transform 0.3s ease-in-out;
+  box-shadow: 0 8px 8px rgb(0 0 0 / 30%);
+  top: 17px;
+  top: 8px;
+
+  width: 33px;
+  height: 34px;
+}
+.divSongs3:hover > button {
+  opacity: 1;
+  bottom: 10px;
+  pointer-events: unset;
+}
+
+.divSongs3 > button:hover {
+  transform: scale(1.1);
+}
+.divSongs3 > img {
+  width: 8%;
+  height: 50px;
+  object-fit: cover;
+  box-shadow: 0 8px 24px rgb(0 0 0 / 50%);
+  position: absolute;
+
+  left: 27px;
+}
+.divSongs1 {
+  display: block;
+  position: absolute;
+  left: 364px;
+}
+.divSongs1 > h1 {
+  color: white;
+  font-size: 26px;
+
+  align-self: auto;
+  font-family: cursive;
+}
+.divSongs2 {
+  position: absolute;
+  top: 34px;
+}
+.divSongs3 > h2 {
+  color: white;
+  font-size: 20px;
+  align-self: auto;
+  font-family: cursive;
+  position: absolute;
+  left: 113px;
+  margin-top: -33px;
+  display: grid;
+}
+.divSongs3Link {
+  display: flex;
+  position: absolute;
+  width: 150px;
+  align-items: flex-start;
+
+  color: white;
+  font-size: 12px;
+  align-self: auto;
+  font-family: cursive;
+  text-decoration: none;
+  margin: 0px 2px 83px 0px;
+  left: 118px;
+}
+.harfTopResult:hover {
+  background-color: #282828;
+}
+.harfTopResult:hover > .divTopResult2 > button {
+  opacity: 1;
+  bottom: 10px;
+  pointer-events: unset;
+}
+
+.divTopResult2 > button:hover {
+  transform: scale(1.1);
+}
+.divSongsButton {
+  position: relative;
+  display: grid;
+
+  left: 639px;
+  align-items: center;
+  justify-content: center;
+
+  top: -23px;
+}
+.divSongsButton > button {
+  position: absolute;
+  top: 3px;
+  bottom: 0px;
+  border-radius: 50%;
+  background-color: #181818;
+  color: white;
+  border: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.4s ease-in-out, bottom 0.4s ease-in-out,
+    transform 0.3s ease-in-out;
+  margin: 12px 2px 54px 0px;
+}
+.divSongsButton > button > svg {
+  font-size: 30px;
+}
+/* هون هاي بس عشان تكبر لقلب للمستخدم
+ */
+.divSongsButton > button:hover {
+  transform: scale(1.1);
+}
+
+.divSongs3:hover {
+  background-color: #282828;
+}
+.divSongs3:hover > .divSongsButton > button {
+  opacity: 1;
+  bottom: 10px;
+  pointer-events: unset;
+}
+.divSongs3 > button:hover {
+  transform: scale(1.1);
+}
+
+.durationSongsAll {
+  display: grid;
+  position: relative;
+  font-size: 18px;
+  font-family: cursive;
+  padding: 1px;
+  margin: -23px 0px 0px 100%;
+  width: 49px;
+  height: 30px;
+  left: 87px;
+}
+.divAlbums1 {
+  position: absolute;
+  top: 331px;
+  width: auto;
+  height: auto;
+  display: flex;
+}
+.divAlbums1 > h1 {
+  color: white;
+  font-size: 25px;
+  font-family: cursive;
+  position: absolute;
+  left: 17px;
+  width: auto;
+  height: auto;
+}
+.herfAlbums {
+  background-color: #181818;
+  min-width: 162px;
+
+  min-height: 239px;
+  border-radius: 5px;
+  padding: 12px;
+
+  flex-direction: column;
+  align-items: flex-start;
+  transition: background-color 0.3s ease-in;
+  cursor: pointer;
+  margin: 43px 12px 14px 13px;
+  flex: 1 1;
+  text-decoration: none;
+}
+
+.imgalbums {
+  width: 100%;
+  height: 159px;
+  object-fit: cover;
+  box-shadow: 0 8px 24px rgb(0 0 0 / 50%);
+}
+.divAlbums2 {
+  color: white;
+  font-size: 13px;
+  margin-top: initial;
+  align-self: center;
+  font-family: cursive;
+}
+
+.divAlbums3 {
+  font-family: cursive;
+  position: absolute;
+  font-size: 10px;
+  color: #9b9b9b;
+  display: flex;
+
+  margin: 8px 11px 2px 13px;
+}
+.herfAlbums1 {
+  font-family: cursive;
+  position: absolute;
+  font-size: 10px;
+  color: #9b9b9b;
+  display: flex;
+  text-decoration: none;
+  margin: 8px 15px 3px 57px;
+}
+.divAlbums4 {
+  position: relative;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+}
+.divAlbums4 > button {
+  position: absolute;
+  left: 119px;
+  bottom: 0px;
+  border-radius: 50%;
+  background-color: #1db954;
+  color: white;
+  border: none;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.4s ease-in-out, bottom 0.4s ease-in-out,
+    transform 0.3s ease-in-out;
+  box-shadow: 0 8px 8px rgb(0 0 0 / 30%);
+}
+.divAlbums4 > button > svg {
+  font-size: 17px;
+  margin-left: 1px;
+}
+.herfAlbums:hover {
+  background-color: #282828;
+}
+
+.herfAlbums:hover > .divAlbums4 > button {
+  opacity: 1;
+  bottom: 10px;
+  pointer-events: unset;
+}
+
+.divAlbums4 > button:hover {
+  transform: scale(1.1);
+}
+.divArtists {
+  display: flex;
+  position: absolute;
+  top: 667px;
+
+  height: auto;
+  width: auto;
+}
+.divArtists > h1 {
+  color: white;
+  font-size: 25px;
+  font-family: cursive;
+  position: absolute;
+  left: 17px;
+  width: auto;
+  height: auto;
+}
+.herfArtists {
+  background-color: #181818;
+  min-width: 162px;
+  min-height: 239px;
+  border-radius: 5px;
+  padding: 12px;
+  flex-direction: column;
+  align-items: flex-start;
+  transition: background-color 0.3s ease-in;
+  cursor: pointer;
+  margin: 43px 12px 14px 13px;
+  flex: 1 1;
+  text-decoration: none;
+}
+.divArtists1 {
+  position: relative;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+}
+.imgArtists {
+  width: 100%;
+  height: 159px;
+  object-fit: cover;
+  box-shadow: 0 8px 24px rgb(0 0 0 / 50%);
+}
+.divArtists2 {
+  color: white;
+  font-size: 15px;
+  margin-top: initial;
+  align-self: center;
+  font-family: cursive;
+}
+.divArtists3 {
+  font-family: cursive;
+  position: absolute;
+  color: #9b9b9b;
+  display: flex;
+  text-decoration: none;
+  margin: 8px 15px 3px 57px;
+}
+.divArtists1 > button {
+  position: absolute;
+  left: 119px;
+  bottom: 0px;
+  border-radius: 50%;
+  background-color: #1db954;
+  color: white;
+  border: none;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.4s ease-in-out, bottom 0.4s ease-in-out,
+    transform 0.3s ease-in-out;
+  box-shadow: 0 8px 8px rgb(0 0 0 / 30%);
+}
+
+.divArtists1 > button > svg {
+  font-size: 17px;
+  margin-left: 1px;
+}
+.herfArtists:hover {
+  background-color: #282828;
+}
+
+.herfArtists:hover > .divArtists1 > button {
+  opacity: 1;
+  bottom: 10px;
+  pointer-events: unset;
+}
+
+.divArtists1 > button:hover {
+  transform: scale(1.1);
+}
+.trackDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  top: 136px;
+  width: calc(100% - 285px);
+  left: 268px;
+}
+.divH1 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.divH2 {
+  display: flex;
+}
+.divH2 > h1 {
+  font-size: 18px;
+  color: white;
+  font-family: cursive;
+
+  height: 40px;
+}
+.divH1 > h2 {
+  font-size: 18px;
+  color: white;
+  font-family: cursive;
+  position: relative;
+  height: 40px;
+}
+.trackDiv1 {
+  width: 100%;
+}
+.trackDiv2 {
+  position: relative;
+
+  display: flex;
+}
+.trackDivIndex {
+  position: relative;
+  top: 7px;
+  color: white;
+  font-family: cursive;
+  margin: 10p;
+  display: grid;
+  margin: 1px 1px 30px 1px;
+}
+.trackDivImg {
+  display: flex;
+
+  position: relative;
+  justify-content: center;
+  align-items: center;
+
+  height: 40px;
+}
+.trackDivImg > button {
+  position: relative;
+  bottom: 0px;
+  left: 13px;
+  margin-top: 15px;
+  background-color: transparent;
+  color: white;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.4s ease-in-out, bottom 0.4s ease-in-out,
+    transform 0.3s ease-in-out;
+}
+
+.trackDivImg > button > svg {
+  font-size: 15px;
+}
+.trackDivImg > img {
+  position: relative;
+  display: grid;
+  width: 40px;
+  height: 40px;
+  left: 39px;
+}
+.trackDiv2:hover > .trackDivImg > button {
+  opacity: 1;
+  bottom: 10px;
+  pointer-events: unset;
+}
+.trackDivImg:hover {
+  background-color: #282828;
+}
+.trackDivImg > button:hover {
+  transform: scale(1.5, 1.5);
+}
+.trackDiv4 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.trackDiv5 {
+  width: 100%;
+}
+.trackDiv3 {
+  display: flex;
+
+  flex-direction: column;
+
+  width: 20%;
+  align-items: center;
+}
+
+.trackDiv3 > h1 {
+  position: relative;
+  left: 23px;
+  font-size: 12px;
+  color: white;
+  font-family: cursive;
+}
+.trackherf {
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+  font-family: cursive;
+  position: relative;
+  top: 4px;
+}
+.trackDiv6 {
+  color: white;
+  font-family: cursive;
+  font-size: 14px;
+  position: relative;
+  top: 7px;
+}
+.trackDiv2:hover {
+  background-color: #282828;
+}
+
+.trackDiv2:hover > .trackdivButton > button {
+  opacity: 1;
+  bottom: 10px;
+  pointer-events: unset;
+}
+
+.trackdivButton > button:hover {
+  transform: scale(1.1);
+}
+.trackdivButton {
+  position: relative;
+  top: 18px;
+  left: 0px;
+  width: 44px;
+}
+.trackdivButton > button {
+  position: relative;
+
+  bottom: 0px;
+  border-radius: 50%;
+  background-color: transparent;
+  color: white;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.4s ease-in-out, bottom 0.4s ease-in-out,
+    transform 0.3s ease-in-out;
+}
+.trackdivButton > button > svg {
+  font-size: 27px;
+}
+.artistDiv {
+  display: grid;
+  position: relative;
+  width: calc(100% - 262px);
+  top: 136px;
+  left: 262px;
+  flex-direction: unset;
+  --column-count: 6;
+  grid-template-columns: repeat(var(--column-count), minmax(0, 1fr));
+}
+.artistHerf {
+  background-color: #181818;
+  min-width: 90px;
+  min-height: 231px;
+
+  border-radius: 5px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  transition: background-color 0.3s ease-in;
+  cursor: pointer;
+  margin: 0px 8px 14px 10px;
+  flex: 1 1;
+  text-decoration: none;
+}
+.artistDiv1 > img {
+  width: 100%;
+  border-radius: 50%;
+  height: 159px;
+  object-fit: cover;
+  box-shadow: 0 8px 24px rgb(0 0 0 / 50%);
+}
+.artistHerf > h1 {
+  font-size: 19px;
+  font-family: cursive;
+  color: white;
+}
+.artistDiv1 > button {
+  position: relative;
+  left: 110px;
+  margin-top: -34px;
+  bottom: 0px;
+  border-radius: 50%;
+  background-color: #1db954;
+  color: white;
+  border: none;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.4s ease-in-out, bottom 0.4s ease-in-out,
+    transform 0.3s ease-in-out;
+  box-shadow: 0 8px 8px rgb(0 0 0 / 30%);
+}
+.artistDiv1 > button > svg {
+  font-size: 17px;
+  margin-left: 1px;
+}
+
+.artistHerf:hover {
+  background-color: #282828;
+}
+
+.artistHerf:hover > .artistDiv1 > button {
+  opacity: 1;
+  bottom: 10px;
+  pointer-events: unset;
+}
+
+.artistHerf > button:hover {
+  transform: scale(1.1);
+}
+.artistDiv1 {
+  position: relative;
+
+  align-self: center;
+}
+.playlistDiv {
+  display: grid;
+  position: relative;
+  width: calc(100% - 262px);
+  top: 136px;
+  left: 262px;
+  flex-direction: unset;
+  --column-count: 6;
+  grid-template-columns: repeat(var(--column-count), minmax(0, 1fr));
+}
+.playlistHerf {
+  background-color: #181818;
+  min-width: 90px;
+  min-height: 231px;
+  border-radius: 5px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  transition: background-color 0.3s ease-in;
+  cursor: pointer;
+  margin: 0px 8px 14px 10px;
+  flex: 1 1;
+  text-decoration: none;
+}
+.playlistDiv1 {
+  position: relative;
+
+  align-self: center;
+}
+.playlistDiv1 > img {
+  width: 100%;
+
+  height: 159px;
+  object-fit: cover;
+  box-shadow: 0 8px 24px rgb(0 0 0 / 50%);
+}
+.playlistHerf > h1 {
+  font-size: 15px;
+  font-family: cursive;
+  color: white;
+}
+.playlistDiv1 > button {
+  position: relative;
+  left: 120px;
+  margin-top: -34px;
+  bottom: 0px;
+  border-radius: 50%;
+  background-color: #1db954;
+  color: white;
+  border: none;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.4s ease-in-out, bottom 0.4s ease-in-out,
+    transform 0.3s ease-in-out;
+  box-shadow: 0 8px 8px rgb(0 0 0 / 30%);
+}
+.playlistDiv1 > button > svg {
+  font-size: 17px;
+  margin-left: 1px;
+}
+.playlistHerf:hover {
+  background-color: #282828;
+}
+
+.playlistHerf:hover > .playlistDiv1 > button {
+  opacity: 1;
+  bottom: 10px;
+  pointer-events: unset;
+}
+
+.playlistDiv1 > button:hover {
+  transform: scale(1.1);
+}
+.divAlbumsIndex {
+  display: flex;
+}
+.divArtistsIndex {
+  display: flex;
+}
+.divSongs3Link > h3 {
+  margin-left: -3px;
+  font-size: 10px;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: white;
+}
+.trackDiv3 > h1 > span {
+  cursor: pointer;
+}
