@@ -534,7 +534,7 @@
 }
 .trackDiv2 {
   position: relative;
-
+  margin-left: 16px;
   display: flex;
 }
 .trackDivIndex {
@@ -542,7 +542,7 @@
   top: 7px;
   color: white;
   font-family: cursive;
-  margin: 10p;
+  margin: 10px;
   display: grid;
   margin: 1px 1px 30px 1px;
 }
@@ -824,7 +824,9 @@
   bottom: 10px;
   pointer-events: unset;
 }
-
+.trackDiv80 {
+  margin-left: 10px;
+}
 .playlistDiv1 > button:hover {
   transform: scale(1.1);
 }

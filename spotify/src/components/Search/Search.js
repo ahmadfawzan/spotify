@@ -66,7 +66,8 @@ export default function Search() {
         );
     }
   }, [params]);
-  console.log(params.search);
+  /* console.log(params.search);  */
+  /* refactor test*/
   function millisToMinutesAndSeconds(millis) {
     var minutes = Math.floor(millis / 60000);
     var seconds = ((millis % 60000) / 1000).toFixed(0);
@@ -89,10 +90,10 @@ export default function Search() {
     });
   }
 
-  console.log(all);
+  /* console.log(all);
   console.log(artist);
   console.log(playlists);
-  console.log(all?.tracks?.items[0]?.name);
+  console.log(all?.tracks?.items[0]?.name); */
   /* console.log(location.pathname); */
   return (
     <div>
@@ -270,7 +271,10 @@ export default function Search() {
           <div className="trackDiv1">
             {all?.tracks?.items?.map((item, index) => {
               return (
-                <div key={index} className="trackDiv2">
+                <div
+                  key={index}
+                  className={`trackDiv2 ${index + 1 >= 10 && "trackDiv80"}`}
+                >
                   <div className="trackDivIndex">{index + 1} </div>
                   <div className="trackDivImg">
                     <img src={item?.album?.images[0]?.url} alt=""></img>

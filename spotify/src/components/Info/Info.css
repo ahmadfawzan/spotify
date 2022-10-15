@@ -131,7 +131,12 @@
   color: white;
   font-family: cursive;
 }
-
+.playlist10 > span {
+  cursor: pointer;
+}
+.playlist10 > span > span {
+  cursor: pointer;
+}
 a:hover {
   text-decoration: underline;
   color: white;
@@ -399,6 +404,22 @@ a:hover {
   margin-left: 10px;
 }
 .artist7 > img {
+  display: flex;
+  width: 51px;
+  height: 49px;
+  margin-left: 13px;
+}
+.artist71 {
+  display: flex;
+  justify-content: space-between;
+}
+.artist71 > h1 {
+  color: white;
+  font-size: 17px;
+  font-family: cursive;
+  margin-left: 0px;
+}
+.artist71 > img {
   display: flex;
   width: 51px;
   height: 49px;

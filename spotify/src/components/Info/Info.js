@@ -112,7 +112,10 @@ export default function Info() {
         </div>
         {playlist?.tracks?.items?.map((item, index) => {
           return (
-            <div key={index} className="playlist6">
+            <div
+              key={index}
+              className={`playlist6 ${index + 1 >= 10 && "trackDiv80"}`}
+            >
               <div className="playlist7">
                 <div className="playlist8">
                   {index + 1}{" "}
@@ -210,7 +213,7 @@ export default function Info() {
           return (
             <div key={index} className="Album7">
               <div className="Album8">
-                <div className="Album9">
+                <div className={`Album9 ${index + 1 >= 10 && "trackDiv80"}`}>
                   {index + 1}
                   <div className="Album10">
                     <Link to={`/${item?.type}/${item?.id}`}>{item?.name}</Link>
@@ -262,7 +265,7 @@ export default function Info() {
           {dataForDisplay?.map((item, index) => {
             return (
               <div key={index} className="artist6">
-                <div className="artist7">
+                <div className={`artist7 ${index + 1 >= 10 && "artist71"}`}>
                   <h1>{index + 1}</h1>
 
                   <img src={item?.album?.images[0]?.url} alt=""></img>
